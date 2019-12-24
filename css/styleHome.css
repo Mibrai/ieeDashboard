@@ -1,0 +1,70 @@
+body{
+    margin: 0 auto;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+#div_text_card img{
+    width:300px;
+    height:150px;
+    border-radius:20%;
+}
+#bloc_contentHome .mb-3 {
+    border:none;
+    height:70%;
+    background: linear-gradient(90deg, rgba(28,28,31,1) 5%, rgba(14,14,40,0.779131635564382) 33%, rgba(154,161,162,1) 100%); 
+    
+}
+#bloc_contentHome{
+    border:none;
+    margin-top:10px;
+    margin-left:90px;
+}
+#div_text_card .btn{
+    width:300px;
+    box-shadow:1px 1px 1px 1px grey;
+    background: linear-gradient(90deg, rgba(28,28,31,1) 5%, rgba(14,14,40,0.779131635564382) 33%, rgba(154,161,162,1) 100%); 
+    border:none;
+}
+#div_text_card .btn:hover{
+    box-shadow:2px 2px 2px 2px gainsboro;
+}
+#title_card{
+    font-size:20px;
+    text-align:center;
+    color:white;
+    background: linear-gradient(90deg, rgba(28,28,31,1) 5%, rgba(14,14,40,0.779131635564382) 33%, rgba(154,161,162,1) 100%); 
+    
+}
+#bloc_contentHome .col-md{
+    border:none;
+    box-shadow:2px 2px 2px 2px white;
+    padding:10px;
+    margin:5px;
+     background: rgb(154,161,162);
+    background: linear-gradient(90deg, rgba(154,161,162,1) 0%, rgba(28,28,31,0.39257701371564246) 39%, rgba(14,14,40,0.779131635564382) 100%); 
+}
+#div_text_card .dropdown-menu a:hover{
+    background-color:#104BD1;
+    color:white;
+    background: linear-gradient(90deg, rgba(28,28,31,1) 5%, rgba(14,14,40,0.779131635564382) 33%, rgba(154,161,162,1) 100%);  
+}
+#div_text_card .dropdown-menu a{
+    width:300px;
+    text-align:center;
+}
+#title_link .btn{
+    width:200px;
+    box-shadow:1px 1px 1px 1px grey;
+    background: linear-gradient(90deg, rgba(28,28,31,1) 5%, rgba(14,14,40,0.779131635564382) 33%, rgba(154,161,162,1) 100%); 
+    border:none;
+}
+#title_dashboard{
+    border:none;
+    display: block;
+    margin-top:100px;
+    margin-left:200px;
+    font-size:52px;
+    font-family:castellar;
+    float:left;
+}

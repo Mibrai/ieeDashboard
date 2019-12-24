@@ -1,0 +1,73 @@
+body{
+	margin: 0 auto;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+ 
+.container{
+	width: 950px;
+	height: 500px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(224, 224, 224, 10);
+	margin-top: 100px;
+}
+/*prufstand*/
+.containersmall{
+	width: 305px;
+	height: 370px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(224, 224, 224, 10);
+	margin-top: 100px;
+}
+.btn-loginsmall{
+	margin: 25px 0px 0px 150px;
+	padding: 15px 50px;
+	border: none;
+	background-color: #27ae60;
+	color: #fff;
+}
+/*******************/
+/*Test_Art*/
+.containermed{
+	width: 305px;
+	height: 480px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(224, 224, 224, 10);
+	margin-top: 100px;
+}
+/*******************/
+input[type="text"],input[type="password"]{
+	margin-top: 30px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 40px;
+}
+ 
+.form-input::before{
+	content: "\f007";
+	font-family: "FontAwesome";
+	padding-left: 07px;
+	padding-top: 40px;
+	position: absolute;
+	font-size: 35px;
+	color: #2980b9; 
+}
+ 
+.form-input:nth-child(2)::before{
+	content: "\f023";
+}
+ 
+.btn-login{
+	margin: -80px 0px 0px 575px;
+	padding: 15px 50px;
+	border: none;
+	background-color: #27ae60;
+	color: #fff;
+}
