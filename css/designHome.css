@@ -6,7 +6,7 @@ body{
 }
  
 .container{
-	width: 950px;
+	width: auto;
 	height: 500px;
 	text-align: center;
 	margin: 0 auto;
@@ -40,34 +40,38 @@ body{
 	margin-top: 100px;
 }
 /*******************/
-input[type="text"],input[type="password"]{
-	margin-top: 30px;
-	height: 45px;
-	width: 300px;
-	font-size: 18px;
-	margin-bottom: 20px;
-	background-color: #fff;
-	padding-left: 40px;
-}
- 
-.form-input::before{
-	content: "\f007";
-	font-family: "FontAwesome";
-	padding-left: 07px;
-	padding-top: 40px;
-	position: absolute;
-	font-size: 35px;
-	color: #2980b9; 
-}
- 
-.form-input:nth-child(2)::before{
-	content: "\f023";
-}
- 
+
+
 .btn-login{
 	margin: -80px 0px 0px 575px;
 	padding: 15px 50px;
 	border: none;
 	background-color: #27ae60;
 	color: #fff;
+}
+h1 span{
+	color:red;
+	border:none;
+	margin-top:70px;
+	margin-left:10px;
+}
+#btn_save{
+	margin-left:350px;
+	margin-top:20px;
+}
+#bloc_content_anzeige span{
+	padding:10px;
+}
+#content_title{
+	border:none;
+	margin-top:1px;
+	width:15%;
+	float:left;
+	margin-left:20px;
+}
+#content_title span{
+	padding:20px;
+	font-size:20px;
+	border-radius:20%;
+	box-shadow:3px 3px 3px 3px skyblue;
 }
