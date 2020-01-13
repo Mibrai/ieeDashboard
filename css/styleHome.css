@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-	background-image: url("../images/background.jpg");
+	/*background-image: url("../images/background.jpg");*/
 	background-repeat: no-repeat;
 	background-size: 100% 720px;
 }
@@ -67,4 +67,38 @@ body{
     font-size:52px;
     font-family:castellar;
     float:left;
+}
+#container_login{
+    border:none;
+    width:50%;
+    margin-left:400px;
+    margin-top:200px;
+    height:50%;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+    border-radius:2%;
+    box-shadow: 3px 3px 3px 3px grey;
+}
+#container_login .form_login{
+        margin-top:50px;
+}
+#container_login .form-control{
+    background-color:white;
+}
+.form_login{
+    width:70%;
+    margin-left:150px;
+    padding:50px;
+    border:none;
+}
+#submit{
+    margin-left:100px;
+    width:30%;
+}
+.form_login label{
+    font-size:20px;
+}
+.form_login input{
+    height:50px;
 }
